@@ -1,5 +1,4 @@
 # mytest
 
-story2
-
+story1
 

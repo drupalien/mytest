@@ -1,0 +1,12 @@
+uuid: 80dd4706-a12b-4fcb-8ea7-eba97117bc21
+name: Ulysse
+mail: noreply@test.fr
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr

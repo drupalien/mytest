@@ -1,0 +1,11 @@
+uuid: ec50ccab-dfd9-4f5d-bbfc-e54a1a15ea98
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.post_it
+id: node.post_it
+target_entity_type_id: node
+target_bundle: post_it
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,21 @@
+uuid: c728730c-b900-476a-a512-e44954f2fff2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pages_destination
+    - node.type.lien
+  module:
+    - options
+id: node.lien.field_pages_destination
+field_name: field_pages_destination
+entity_type: node
+bundle: lien
+label: 'Pages de destination'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

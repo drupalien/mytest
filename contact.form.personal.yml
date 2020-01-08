@@ -1,0 +1,11 @@
+uuid: 5007d0ff-55e6-49f9-95f8-09d49ca1dbde
+langcode: fr
+status: true
+dependencies: {  }
+id: personal
+label: 'Formulaire de contact personnel'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Votre message a été envoyé.'
+redirect: ''

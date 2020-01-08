@@ -1,0 +1,11 @@
+uuid: 56d36bcd-5a70-4d6c-8e99-68c8e8638d1d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blocs_colonne_droite
+id: taxonomy_term.blocs_colonne_droite
+target_entity_type_id: taxonomy_term
+target_bundle: blocs_colonne_droite
+default_langcode: site_default
+language_alterable: false

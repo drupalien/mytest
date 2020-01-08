@@ -1,8 +1,0 @@
-uuid: 69af5d4f-f1b0-46ef-acc8-da634002c97d
-langcode: fr
-status: true
-dependencies: {  }
-id: custom_date
-label: 'custom date'
-locked: false
-pattern: 'd m Y'

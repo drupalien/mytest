@@ -1,9 +1,0 @@
-uuid: aa577730-39b8-4765-b915-cebc2354b30f
-langcode: fr
-status: true
-dependencies: {  }
-id: doc_pnsrmontreuil
-label: DOC_pnsrMontreuil
-weight: 27
-is_admin: null
-permissions: {  }

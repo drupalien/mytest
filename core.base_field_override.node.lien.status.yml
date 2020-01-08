@@ -1,0 +1,22 @@
+uuid: 1a8c952e-38e3-468a-a0fb-c22c74309f5d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.lien
+id: node.lien.status
+field_name: status
+entity_type: node
+bundle: lien
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

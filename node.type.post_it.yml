@@ -1,0 +1,17 @@
+uuid: 3bf29fdf-ca1c-4d51-a47c-eeec64bb80e8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Post-it
+type: post_it
+description: 'Permet d''afficher sur les pages, colonnes de gauche ou de droite, une information importante ou à signaler qui n''a pas vocation à être reprise par ailleurs.'
+help: 'Le "Nom de référence" sera le titre de la page accessible en cliquant sur le lien "En savoir plus" du post-it, ainsi que le titre affiché dans le listing de vos contenus.'
+new_revision: false
+preview_mode: 1
+display_submitted: false

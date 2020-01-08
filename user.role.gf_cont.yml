@@ -1,9 +1,0 @@
-uuid: b0fbf8b3-a113-4e35-bb23-8b16c32290c9
-langcode: fr
-status: true
-dependencies: {  }
-id: gf_cont
-label: GF_cont
-weight: 52
-is_admin: null
-permissions: {  }

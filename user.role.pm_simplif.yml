@@ -1,9 +1,0 @@
-uuid: 53514b50-07d6-4398-915f-ef48d89350b1
-langcode: fr
-status: true
-dependencies: {  }
-id: pm_simplif
-label: PM_simplif
-weight: 89
-is_admin: null
-permissions: {  }

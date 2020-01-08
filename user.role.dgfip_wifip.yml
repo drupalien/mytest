@@ -1,9 +1,0 @@
-uuid: fb38e09d-106d-4ff4-bc6f-acecf4444868
-langcode: fr
-status: true
-dependencies: {  }
-id: dgfip_wifip
-label: DGFIP_wiFiP
-weight: 18
-is_admin: null
-permissions: {  }

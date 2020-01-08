@@ -1,0 +1,33 @@
+uuid: 47db0be1-873a-464e-8daf-cee6b542a69b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_liste_parente
+    - node.type.lien
+    - taxonomy.vocabulary.type_lien
+  content:
+    - 'taxonomy_term:type_lien:cab5e55b-d615-42e8-b802-9444b599ef6b'
+id: node.lien.field_type_liste_parente
+field_name: field_type_liste_parente
+entity_type: node
+bundle: lien
+label: 'Type de liste parente'
+description: 'Sélectionnez la liste dans laquelle devra s''afficher le lien.'
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: cab5e55b-d615-42e8-b802-9444b599ef6b
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_lien: type_lien
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

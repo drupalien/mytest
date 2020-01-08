@@ -1,0 +1,21 @@
+uuid: 69c24acf-8ea3-4ddf-beec-b88efbf9043e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_pages_destination
+field_name: field_pages_destination
+entity_type: node
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ulysse_lien_allowed_values_function
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

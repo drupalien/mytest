@@ -1,9 +1,0 @@
-uuid: f2a96d3c-ee73-4616-b50e-cc88433d2bdd
-langcode: fr
-status: true
-dependencies: {  }
-id: pr_informatique
-label: PR_informatique
-weight: 91
-is_admin: null
-permissions: {  }

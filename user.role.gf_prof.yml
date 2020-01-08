@@ -1,9 +1,0 @@
-uuid: 54762f26-ff4d-4e8d-aee0-30c284c8ec30
-langcode: fr
-status: true
-dependencies: {  }
-id: gf_prof
-label: GF_prof
-weight: 56
-is_admin: null
-permissions: {  }

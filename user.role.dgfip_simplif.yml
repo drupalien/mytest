@@ -1,9 +1,0 @@
-uuid: 5d6c0fc1-2017-4c7c-9e77-969227b5aac8
-langcode: fr
-status: true
-dependencies: {  }
-id: dgfip_simplif
-label: DGFIP_simplif
-weight: 17
-is_admin: null
-permissions: {  }

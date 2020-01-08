@@ -1,9 +1,0 @@
-uuid: cacf38a8-4140-4b94-86ae-8273770e9f7c
-langcode: fr
-status: true
-dependencies: {  }
-id: pm_mra
-label: PM_mra
-weight: 85
-is_admin: null
-permissions: {  }

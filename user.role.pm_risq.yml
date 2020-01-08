@@ -1,9 +1,0 @@
-uuid: c5e1b905-4fe0-4e86-ab46-3d2e43d9a45a
-langcode: fr
-status: true
-dependencies: {  }
-id: pm_risq
-label: PM_risq
-weight: 88
-is_admin: null
-permissions: {  }

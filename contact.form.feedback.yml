@@ -1,11 +1,11 @@
-uuid: d917f02f-7465-4735-b1f6-69a2d671134e
+uuid: 802d2a35-447a-4cd3-9566-435b39a16aa2
 langcode: fr
 status: true
 dependencies: {  }
 id: feedback
 label: 'Retours utilisateurs sur le site web'
 recipients:
-  - ulysse-mazhar.consultant@dgfip.finances.gouv.fr
+  - noreply@test.fr
 reply: ''
 weight: 0
 message: 'Votre message a été envoyé.'

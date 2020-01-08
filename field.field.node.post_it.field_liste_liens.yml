@@ -1,0 +1,23 @@
+uuid: ed2b6069-4c75-4eb3-be06-04c5462abeb6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_liste_liens
+    - node.type.post_it
+  module:
+    - link
+id: node.post_it.field_liste_liens
+field_name: field_liste_liens
+entity_type: node
+bundle: post_it
+label: 'Liste de liens'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

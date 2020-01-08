@@ -1,0 +1,24 @@
+uuid: 70eaacf9-721f-4f5c-bfdc-50705b87e6fc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.annuaires
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__annuaires
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:annuaires-block_annuaires'
+settings:
+  id: 'views_block:annuaires-block_annuaires'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

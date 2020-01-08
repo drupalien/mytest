@@ -1,0 +1,11 @@
+uuid: 427f0f51-c1ca-4ccf-893a-8e0038ce8cfa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_lien
+id: taxonomy_term.type_lien
+target_entity_type_id: taxonomy_term
+target_bundle: type_lien
+default_langcode: site_default
+language_alterable: false

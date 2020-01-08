@@ -1,9 +1,0 @@
-uuid: 31c68e67-23a7-462f-b844-c40d55cb62ca
-langcode: fr
-status: true
-dependencies: {  }
-id: com_actu
-label: COM_actu
-weight: 7
-is_admin: null
-permissions: {  }

@@ -1,9 +1,0 @@
-uuid: 690ededb-3fae-48d2-a454-76916e8fd275
-langcode: fr
-status: true
-dependencies: {  }
-id: com_refoterr
-label: COM_refoterr
-weight: 16
-is_admin: null
-permissions: {  }

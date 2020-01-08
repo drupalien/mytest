@@ -1,9 +1,0 @@
-uuid: ae089f79-a899-4681-8c2f-1d35531defae
-langcode: fr
-status: true
-dependencies: {  }
-id: com_acso
-label: COM_acso
-weight: 6
-is_admin: null
-permissions: {  }

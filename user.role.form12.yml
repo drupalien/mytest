@@ -1,9 +1,0 @@
-uuid: ef3d266b-6810-4915-9709-2b96bfafe2c5
-langcode: fr
-status: true
-dependencies: {  }
-id: form12
-label: Form12
-weight: 44
-is_admin: null
-permissions: {  }

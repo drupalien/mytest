@@ -1,0 +1,22 @@
+uuid: f67ee141-caa1-43fe-8c09-4342b6e64337
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.rubricage
+id: node.rubricage.promote
+field_name: promote
+entity_type: node
+bundle: rubricage
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

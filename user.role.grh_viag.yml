@@ -1,9 +1,0 @@
-uuid: 2bdc63d3-ca00-41f8-aa75-9330e078e2bd
-langcode: fr
-status: true
-dependencies: {  }
-id: grh_viag
-label: GRH_viag
-weight: 78
-is_admin: null
-permissions: {  }

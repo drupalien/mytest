@@ -1,9 +1,0 @@
-uuid: fc17e9a1-a232-41a9-9d53-6b2c09555129
-langcode: fr
-status: true
-dependencies: {  }
-id: gp_splo
-label: GP_splo
-weight: 69
-is_admin: null
-permissions: {  }

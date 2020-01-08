@@ -1,9 +1,0 @@
-uuid: 708f4e8b-f336-4324-bb14-1b43c632ee0f
-langcode: fr
-status: true
-dependencies: {  }
-id: comm
-label: Comm
-weight: 5
-is_admin: null
-permissions: {  }

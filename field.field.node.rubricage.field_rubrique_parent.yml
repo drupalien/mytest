@@ -1,0 +1,21 @@
+uuid: 296ef0c2-b9a9-43cf-9095-ffcb4eb16150
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rubrique_parent
+    - node.type.rubricage
+  module:
+    - options
+id: node.rubricage.field_rubrique_parent
+field_name: field_rubrique_parent
+entity_type: node
+bundle: rubricage
+label: 'Rubrique parent'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

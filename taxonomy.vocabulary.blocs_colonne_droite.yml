@@ -1,8 +1,0 @@
-uuid: 79eec288-e5b6-4571-a110-134fc22c9818
-langcode: fr
-status: true
-dependencies: {  }
-name: 'Blocs colonne droite'
-vid: blocs_colonne_droite
-description: ''
-weight: 0

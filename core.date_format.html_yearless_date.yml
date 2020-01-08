@@ -1,8 +1,0 @@
-uuid: bbfdf08e-e3b6-4db7-95a0-8ee2f87e3a2a
-langcode: fr
-status: true
-dependencies: {  }
-id: html_yearless_date
-label: 'Date HTML sans année'
-locked: true
-pattern: m-d

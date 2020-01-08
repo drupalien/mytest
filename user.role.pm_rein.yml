@@ -1,0 +1,9 @@
+uuid: fbaf2b95-9cb9-45f7-8469-c257b115a56b
+langcode: fr
+status: true
+dependencies: {  }
+id: pm_rein
+label: PM_rein
+weight: 86
+is_admin: null
+permissions: {  }

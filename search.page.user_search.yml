@@ -1,0 +1,12 @@
+uuid: 756d623b-53a9-4866-88b2-f56b7105d728
+langcode: fr
+status: true
+dependencies:
+  module:
+    - user
+id: user_search
+label: Users
+path: user
+weight: 0
+plugin: user_search
+configuration: {  }

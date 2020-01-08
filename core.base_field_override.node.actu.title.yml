@@ -1,0 +1,18 @@
+uuid: 178c2c2c-acb5-4e10-8e0a-18f5cbd4940b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.actu
+id: node.actu.title
+field_name: title
+entity_type: node
+bundle: actu
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

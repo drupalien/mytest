@@ -1,0 +1,33 @@
+uuid: acff66ce-7d6a-42dc-9133-006f82f278de
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_categorie_rh
+field_name: field_categorie_rh
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: concours-et-examens
+      label: 'Concours et Examens'
+    -
+      value: mutations-et-affectations
+      label: 'Mutations et Affectations'
+    -
+      value: promotions
+      label: Promotions
+    -
+      value: vie-de-lagent
+      label: 'Vie de l''Agent'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

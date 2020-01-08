@@ -1,0 +1,22 @@
+uuid: f2e1e434-701a-407b-9e1d-c644c92d8865
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.contenu_metier
+id: node.contenu_metier.status
+field_name: status
+entity_type: node
+bundle: contenu_metier
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

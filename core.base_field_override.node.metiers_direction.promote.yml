@@ -1,0 +1,22 @@
+uuid: a3032c1e-55ad-4db4-a310-99e9bb94b555
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.metiers_direction
+id: node.metiers_direction.promote
+field_name: promote
+entity_type: node
+bundle: metiers_direction
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

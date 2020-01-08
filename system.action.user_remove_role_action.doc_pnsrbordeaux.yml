@@ -1,0 +1,14 @@
+uuid: e5d0f6f7-702c-467f-afbe-6e81eaa36e3e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrbordeaux
+  module:
+    - user
+id: user_remove_role_action.doc_pnsrbordeaux
+label: 'Enlever le rôle DOC_pnsrBordeaux des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: doc_pnsrbordeaux

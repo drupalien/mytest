@@ -1,0 +1,14 @@
+uuid: 902b6dd8-25b4-4cf0-99f3-3806364013dd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp
+  module:
+    - user
+id: user_remove_role_action.gp
+label: 'Enlever le rôle GP des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gp

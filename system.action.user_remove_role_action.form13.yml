@@ -1,0 +1,14 @@
+uuid: ff00ecd7-6681-4190-9e80-c800925ecd75
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form13
+  module:
+    - user
+id: user_remove_role_action.form13
+label: 'Enlever le rôle Form13 des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: form13

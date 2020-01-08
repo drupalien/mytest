@@ -1,0 +1,14 @@
+uuid: dd0a24f2-f946-4c5e-861a-61067022d4e9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.appli_habilit
+  module:
+    - user
+id: user_remove_role_action.appli_habilit
+label: 'Enlever le rôle APPLI_habilit des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: appli_habilit

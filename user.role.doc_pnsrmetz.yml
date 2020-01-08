@@ -1,0 +1,9 @@
+uuid: 72d42f10-02d5-4377-a81d-88617b4eea5d
+langcode: fr
+status: true
+dependencies: {  }
+id: doc_pnsrmetz
+label: DOC_pnsrMetz
+weight: 25
+is_admin: null
+permissions: {  }

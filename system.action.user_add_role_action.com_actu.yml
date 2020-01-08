@@ -1,0 +1,14 @@
+uuid: 1faf7bbd-2792-40c3-88d5-53146f946e52
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.com_actu
+  module:
+    - user
+id: user_add_role_action.com_actu
+label: 'Ajouter le rôle COM_actu aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: com_actu

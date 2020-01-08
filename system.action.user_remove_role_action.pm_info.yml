@@ -1,0 +1,14 @@
+uuid: 2610c504-4842-4eee-9bad-d65089e75687
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_info
+  module:
+    - user
+id: user_remove_role_action.pm_info
+label: 'Enlever le rôle PM_info des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pm_info

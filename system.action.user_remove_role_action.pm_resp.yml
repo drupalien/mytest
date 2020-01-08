@@ -1,0 +1,14 @@
+uuid: 574bdfde-5d41-4a36-87fe-ef2b54236536
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_resp
+  module:
+    - user
+id: user_remove_role_action.pm_resp
+label: 'Enlever le rôle PM_resp des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pm_resp

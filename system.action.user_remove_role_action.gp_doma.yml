@@ -1,0 +1,14 @@
+uuid: 1c123094-15ff-41af-9fd8-103577acf82e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_doma
+  module:
+    - user
+id: user_remove_role_action.gp_doma
+label: 'Enlever le rôle GP_doma des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gp_doma

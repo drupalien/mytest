@@ -1,0 +1,19 @@
+uuid: c283a2aa-19a5-4c22-99fe-7b33d4a785bf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_theme
+    - node.type.info_metier
+id: node.info_metier.field_theme
+field_name: field_theme
+entity_type: node
+bundle: info_metier
+label: Thème
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

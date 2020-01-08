@@ -1,0 +1,14 @@
+uuid: fbc2d7e5-234e-46b4-b5e1-05104940056b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_cicb
+  module:
+    - user
+id: user_remove_role_action.gp_cicb
+label: 'Enlever le rôle GP_cicb des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gp_cicb

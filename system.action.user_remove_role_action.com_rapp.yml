@@ -1,0 +1,14 @@
+uuid: 7941a68d-bdc9-4da9-83a7-4fd9162ae831
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.com_rapp
+  module:
+    - user
+id: user_remove_role_action.com_rapp
+label: 'Enlever le rôle COM_rapp des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: com_rapp

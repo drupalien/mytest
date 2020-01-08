@@ -1,0 +1,21 @@
+uuid: 8428aa29-6af1-4622-97ec-d1dc6812bdf4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_menu
+    - node.type.page
+id: node.page.field_menu
+field_name: field_menu
+entity_type: node
+bundle: page
+label: Rubrique
+description: 'Sélectionnez la rubrique dans laquelle vous voulez publier ce contenu.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:menu_link_content'
+  handler_settings: {  }
+field_type: entity_reference

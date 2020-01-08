@@ -1,0 +1,45 @@
+uuid: 64868607-e02c-4713-96f9-2f3e0c3058d1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.metiers_direction.field_colonne_gp
+    - field.field.node.metiers_direction.field_direction
+    - field.field.node.metiers_direction.field_poids
+    - node.type.metiers_direction
+  module:
+    - options
+    - user
+id: node.metiers_direction.default
+targetEntityType: node
+bundle: metiers_direction
+mode: default
+content:
+  field_colonne_gp:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_direction:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_poids:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

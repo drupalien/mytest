@@ -1,0 +1,19 @@
+uuid: 993864a1-0228-491a-922e-ec7fd48c0c2f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_lienbouton
+field_name: field_lienbouton
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

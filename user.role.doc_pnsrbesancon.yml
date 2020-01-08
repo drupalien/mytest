@@ -1,0 +1,9 @@
+uuid: 5816e5a4-5e03-4fd9-ab53-e190723bb65b
+langcode: fr
+status: true
+dependencies: {  }
+id: doc_pnsrbesancon
+label: DOC_pnsrBesancon
+weight: 21
+is_admin: null
+permissions: {  }

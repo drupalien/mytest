@@ -1,0 +1,14 @@
+uuid: a5434988-3fd5-46e2-a4e4-0a5f8bc1a319
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.grh_synd
+  module:
+    - user
+id: user_remove_role_action.grh_synd
+label: 'Enlever le rôle GRH_synd des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: grh_synd

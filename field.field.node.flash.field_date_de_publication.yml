@@ -1,0 +1,21 @@
+uuid: 16486d7b-a3d0-4f7e-82ba-b18f98f8760a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_de_publication
+    - node.type.flash
+id: node.flash.field_date_de_publication
+field_name: field_date_de_publication
+entity_type: node
+bundle: flash
+label: 'Publier le'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1576839922
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

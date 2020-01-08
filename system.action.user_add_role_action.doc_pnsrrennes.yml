@@ -1,0 +1,14 @@
+uuid: 6fda71db-9a26-4b5d-9b43-15bd3f95c1a3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrrennes
+  module:
+    - user
+id: user_add_role_action.doc_pnsrrennes
+label: 'Ajouter le rôle DOC_pnsrRennes aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: doc_pnsrrennes

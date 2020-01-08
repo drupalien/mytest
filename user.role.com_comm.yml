@@ -1,0 +1,9 @@
+uuid: 7adf167f-2596-4b75-812a-bf4734ef2c98
+langcode: fr
+status: true
+dependencies: {  }
+id: com_comm
+label: COM_comm
+weight: 9
+is_admin: null
+permissions: {  }

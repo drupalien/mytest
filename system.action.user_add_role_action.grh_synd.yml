@@ -1,0 +1,14 @@
+uuid: fbf864b3-4d0d-4bde-84af-b0ae0fc3e9ad
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.grh_synd
+  module:
+    - user
+id: user_add_role_action.grh_synd
+label: 'Ajouter le rôle GRH_synd aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: grh_synd

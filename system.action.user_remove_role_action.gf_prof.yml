@@ -1,0 +1,14 @@
+uuid: 64ed4aa0-2706-4655-a7f7-c499fd45a72e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gf_prof
+  module:
+    - user
+id: user_remove_role_action.gf_prof
+label: 'Enlever le rôle GF_prof des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gf_prof

@@ -1,0 +1,14 @@
+uuid: e6bccb6b-0d5c-486f-b831-73e4a5238f99
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.grh_stat
+  module:
+    - user
+id: user_remove_role_action.grh_stat
+label: 'Enlever le rôle GRH_stat des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: grh_stat

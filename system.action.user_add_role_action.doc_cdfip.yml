@@ -1,0 +1,14 @@
+uuid: 9a2424e8-9ad0-4eb6-bbd8-729a31076d69
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_cdfip
+  module:
+    - user
+id: user_add_role_action.doc_cdfip
+label: 'Ajouter le rôle DOC_cdfip aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: doc_cdfip

@@ -1,0 +1,14 @@
+uuid: 719d271c-4066-4b29-bf4a-32c6358a86a4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.com_iden
+  module:
+    - user
+id: user_add_role_action.com_iden
+label: 'Ajouter le rôle COM_iden aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: com_iden

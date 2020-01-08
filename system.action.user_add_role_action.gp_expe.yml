@@ -1,0 +1,14 @@
+uuid: 1e76462d-29eb-4f3a-b29e-fc0320a545e7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_expe
+  module:
+    - user
+id: user_add_role_action.gp_expe
+label: 'Ajouter le rôle GP_expe aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gp_expe

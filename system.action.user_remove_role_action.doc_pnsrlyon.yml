@@ -1,0 +1,14 @@
+uuid: b8ebdf1f-c64e-4ea5-960e-1d12295d8bd9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrlyon
+  module:
+    - user
+id: user_remove_role_action.doc_pnsrlyon
+label: 'Enlever le rôle DOC_pnsrLyon des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: doc_pnsrlyon

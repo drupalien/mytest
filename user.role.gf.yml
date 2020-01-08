@@ -1,0 +1,9 @@
+uuid: ad63d756-95f4-4e8b-b48e-f3f43d30738a
+langcode: fr
+status: true
+dependencies: {  }
+id: gf
+label: GF
+weight: 48
+is_admin: null
+permissions: {  }

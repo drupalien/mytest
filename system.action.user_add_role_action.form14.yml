@@ -1,0 +1,14 @@
+uuid: f63fb977-9b01-4569-b2c4-ea61ca6ecfc9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form14
+  module:
+    - user
+id: user_add_role_action.form14
+label: 'Ajouter le rôle Form14 aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: form14

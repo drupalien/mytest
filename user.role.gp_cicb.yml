@@ -1,0 +1,9 @@
+uuid: c763ab64-5b4a-4058-8334-2bbb2bb98868
+langcode: fr
+status: true
+dependencies: {  }
+id: gp_cicb
+label: GP_cicb
+weight: 62
+is_admin: null
+permissions: {  }

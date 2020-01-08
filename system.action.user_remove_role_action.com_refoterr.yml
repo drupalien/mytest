@@ -1,0 +1,14 @@
+uuid: 681fc991-c396-4e3c-83a4-fafd19a375d0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.com_refoterr
+  module:
+    - user
+id: user_remove_role_action.com_refoterr
+label: 'Enlever le rôle COM_refoterr des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: com_refoterr

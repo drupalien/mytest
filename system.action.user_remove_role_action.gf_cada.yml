@@ -1,0 +1,14 @@
+uuid: 35929552-580f-49d8-b02e-0293aa6144d1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gf_cada
+  module:
+    - user
+id: user_remove_role_action.gf_cada
+label: 'Enlever le rôle GF_cada des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gf_cada

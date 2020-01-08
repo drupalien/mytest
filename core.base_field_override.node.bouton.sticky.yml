@@ -1,0 +1,22 @@
+uuid: a611eb8f-c2e9-4d64-baee-4c0cfbd57084
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.bouton
+id: node.bouton.sticky
+field_name: sticky
+entity_type: node
+bundle: bouton
+label: 'Epinglé en haut des listes'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

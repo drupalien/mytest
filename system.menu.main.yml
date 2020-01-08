@@ -1,8 +1,0 @@
-uuid: 43de2881-8d76-4f5f-ad69-ecea5d99ca11
-langcode: fr
-status: true
-dependencies: {  }
-id: main
-label: 'Navigation principale'
-description: 'Liens de section du site'
-locked: true

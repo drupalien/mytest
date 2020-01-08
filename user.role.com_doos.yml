@@ -1,0 +1,9 @@
+uuid: 73c0f7b2-050b-45d2-ab5f-5cee472cdf08
+langcode: fr
+status: true
+dependencies: {  }
+id: com_doos
+label: COM_doos
+weight: 11
+is_admin: null
+permissions: {  }

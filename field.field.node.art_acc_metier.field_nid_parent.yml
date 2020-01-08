@@ -1,0 +1,19 @@
+uuid: 8d53b550-616c-4aa7-be1c-2f5a5a1f55c5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nid_parent
+    - node.type.art_acc_metier
+id: node.art_acc_metier.field_nid_parent
+field_name: field_nid_parent
+entity_type: node
+bundle: art_acc_metier
+label: 'Nid parent'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

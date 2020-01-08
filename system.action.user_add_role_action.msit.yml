@@ -1,0 +1,14 @@
+uuid: 745e0577-ef70-4906-a83f-99e779c9de88
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.msit
+  module:
+    - user
+id: user_add_role_action.msit
+label: 'Ajouter le rôle MSIT aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: msit

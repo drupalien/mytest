@@ -1,0 +1,9 @@
+uuid: d775bb77-73c3-462e-8dbd-c2be85886e2f
+langcode: fr
+status: true
+dependencies: {  }
+id: gf_rsource
+label: GF_rsource
+weight: 58
+is_admin: null
+permissions: {  }

@@ -1,0 +1,11 @@
+uuid: 53b7201f-dbc5-4968-891e-7bb95e62f05b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - comment
+id: comment_delete_action
+label: 'Supprimer le commentaire'
+type: comment
+plugin: 'entity:delete_action:comment'
+configuration: {  }

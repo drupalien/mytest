@@ -1,0 +1,14 @@
+uuid: 67b80e80-ce25-4932-b4dd-e7564658ab03
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form1
+  module:
+    - user
+id: user_add_role_action.form1
+label: 'Ajouter le rôle Form1 aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: form1

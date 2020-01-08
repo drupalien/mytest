@@ -1,0 +1,14 @@
+uuid: 5c3333fe-47a2-4a66-bb4e-c16da6a7cacf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_splo
+  module:
+    - user
+id: user_remove_role_action.gp_splo
+label: 'Enlever le rôle GP_splo des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gp_splo

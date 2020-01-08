@@ -1,0 +1,14 @@
+uuid: 9b087fb4-5e1f-4b09-8629-92fda359df49
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrbesancon
+  module:
+    - user
+id: user_add_role_action.doc_pnsrbesancon
+label: 'Ajouter le rôle DOC_pnsrBesancon aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: doc_pnsrbesancon

@@ -1,0 +1,14 @@
+uuid: 84cbb2ae-f861-48b5-9a04-8545111641a2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form14
+  module:
+    - user
+id: user_remove_role_action.form14
+label: 'Enlever le rôle Form14 des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: form14

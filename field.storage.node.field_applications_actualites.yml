@@ -1,0 +1,20 @@
+uuid: d79e74a7-e290-417a-b609-66f7af6f822b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_applications_actualites
+field_name: field_applications_actualites
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

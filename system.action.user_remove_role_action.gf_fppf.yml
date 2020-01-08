@@ -1,0 +1,14 @@
+uuid: 1c3b8913-1089-4a21-9eab-d3a81d48aac3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gf_fppf
+  module:
+    - user
+id: user_remove_role_action.gf_fppf
+label: 'Enlever le rôle GF_fppf des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gf_fppf

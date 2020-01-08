@@ -1,0 +1,18 @@
+uuid: c0b9e10d-f4fc-428b-b748-5298f37c0b90
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_date_de_publication
+field_name: field_date_de_publication
+entity_type: node
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

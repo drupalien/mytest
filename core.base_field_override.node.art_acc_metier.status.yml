@@ -1,0 +1,22 @@
+uuid: 78183b51-7c1f-473c-a8b8-46f7ed318fa3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.art_acc_metier
+id: node.art_acc_metier.status
+field_name: status
+entity_type: node
+bundle: art_acc_metier
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

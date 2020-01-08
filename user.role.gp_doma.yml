@@ -1,0 +1,9 @@
+uuid: 6aef9add-5ca9-4e91-8835-6afa30044df1
+langcode: fr
+status: true
+dependencies: {  }
+id: gp_doma
+label: GP_doma
+weight: 65
+is_admin: null
+permissions: {  }

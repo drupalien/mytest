@@ -1,0 +1,9 @@
+uuid: 24abf0c6-d3df-4418-a1ea-d27605cbf257
+langcode: fr
+status: true
+dependencies: {  }
+id: grh_offr
+label: GRH_offr
+weight: 75
+is_admin: null
+permissions: {  }

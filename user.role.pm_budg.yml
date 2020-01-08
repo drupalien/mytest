@@ -1,0 +1,9 @@
+uuid: 2ec2dec5-004e-4126-9ee9-6a9399d2be94
+langcode: fr
+status: true
+dependencies: {  }
+id: pm_budg
+label: PM_budg
+weight: 82
+is_admin: null
+permissions: {  }

@@ -1,0 +1,23 @@
+uuid: 7d3425a1-4401-42b3-bfea-8adff38bcf9b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_suite
+    - node.type.contenu_metier
+id: node.contenu_metier.field_suite
+field_name: field_suite
+entity_type: node
+bundle: contenu_metier
+label: 'Réafficher le chapeau après clic sur "suite"'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Réafficher le chapeau après clic sur "suite"'
+  off_label: Non
+field_type: boolean

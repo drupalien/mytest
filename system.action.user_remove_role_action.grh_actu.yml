@@ -1,0 +1,14 @@
+uuid: a25a91c8-7a87-4723-b538-64725e6e06c8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.grh_actu
+  module:
+    - user
+id: user_remove_role_action.grh_actu
+label: 'Enlever le rôle GRH_actu des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: grh_actu

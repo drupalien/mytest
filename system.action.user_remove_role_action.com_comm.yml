@@ -1,0 +1,14 @@
+uuid: 6b26206d-f816-4d90-8c1f-3a439f5aa6db
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.com_comm
+  module:
+    - user
+id: user_remove_role_action.com_comm
+label: 'Enlever le rôle COM_comm des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: com_comm

@@ -1,0 +1,14 @@
+uuid: 14b74df4-8cfc-4092-bfec-4ed001a42be3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrlyon
+  module:
+    - user
+id: user_add_role_action.doc_pnsrlyon
+label: 'Ajouter le rôle DOC_pnsrLyon aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: doc_pnsrlyon

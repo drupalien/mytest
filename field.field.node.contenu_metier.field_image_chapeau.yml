@@ -1,0 +1,38 @@
+uuid: bafbd5f2-203f-465d-ba4b-c0b314628057
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_chapeau
+    - node.type.contenu_metier
+  module:
+    - image
+id: node.contenu_metier.field_image_chapeau
+field_name: field_image_chapeau
+entity_type: node
+bundle: contenu_metier
+label: 'Vignette associée au chapeau'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: fichiers/VIGNETTES
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 120x800
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

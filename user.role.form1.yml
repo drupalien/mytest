@@ -1,0 +1,9 @@
+uuid: 4b3836b6-5099-4d07-a2f0-83324ee00763
+langcode: fr
+status: true
+dependencies: {  }
+id: form1
+label: Form1
+weight: 33
+is_admin: null
+permissions: {  }

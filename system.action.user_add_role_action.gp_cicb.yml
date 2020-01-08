@@ -1,0 +1,14 @@
+uuid: 25e5a4ba-ed5a-40ea-b8f6-00927cc68e77
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_cicb
+  module:
+    - user
+id: user_add_role_action.gp_cicb
+label: 'Ajouter le rôle GP_cicb aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gp_cicb

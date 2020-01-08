@@ -1,0 +1,14 @@
+uuid: 09aa53a1-3b08-4709-990c-95eb75712abf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_doma
+  module:
+    - user
+id: user_add_role_action.gp_doma
+label: 'Ajouter le rôle GP_doma aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gp_doma

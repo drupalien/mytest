@@ -1,0 +1,14 @@
+uuid: 5edce78a-51ad-4bcd-b0cb-150c07ce458d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrmetz
+  module:
+    - user
+id: user_add_role_action.doc_pnsrmetz
+label: 'Ajouter le rôle DOC_pnsrMetz aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: doc_pnsrmetz

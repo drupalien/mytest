@@ -1,0 +1,14 @@
+uuid: 4ae2861d-ceb3-4cc0-b15d-fc5668378af0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrrennes
+  module:
+    - user
+id: user_remove_role_action.doc_pnsrrennes
+label: 'Enlever le rôle DOC_pnsrRennes des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: doc_pnsrrennes

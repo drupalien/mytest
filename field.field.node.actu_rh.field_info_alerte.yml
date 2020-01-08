@@ -1,0 +1,19 @@
+uuid: 59b7ffbe-428c-4b55-808c-6bc9cb720072
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_info_alerte
+    - node.type.actu_rh
+id: node.actu_rh.field_info_alerte
+field_name: field_info_alerte
+entity_type: node
+bundle: actu_rh
+label: 'Info alerte'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

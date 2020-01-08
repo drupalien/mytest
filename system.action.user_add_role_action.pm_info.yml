@@ -1,0 +1,14 @@
+uuid: 196d7bd6-733a-4f71-93c2-e62aa9a24161
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_info
+  module:
+    - user
+id: user_add_role_action.pm_info
+label: 'Ajouter le rôle PM_info aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pm_info

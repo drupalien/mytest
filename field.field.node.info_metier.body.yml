@@ -1,0 +1,23 @@
+uuid: 4c3a4600-d5c3-4943-8cc0-6d36b78afe5e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.info_metier
+  module:
+    - text
+id: node.info_metier.body
+field_name: body
+entity_type: node
+bundle: info_metier
+label: Corps
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

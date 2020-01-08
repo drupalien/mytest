@@ -1,0 +1,53 @@
+uuid: cdccc72b-86bf-4003-b431-91bfbd368760
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.actu.body
+    - field.field.node.actu.field_affichage_actu
+    - field.field.node.actu.field_categorie_actu
+    - field.field.node.actu.field_chapeau
+    - field.field.node.actu.field_date_de_publication
+    - field.field.node.actu.field_image_chapeau
+    - field.field.node.actu.field_info_alerte
+    - field.field.node.actu.field_liste_liens
+    - field.field.node.actu.field_nid_parent
+    - field.field.node.actu.field_poids
+    - field.field.node.actu.field_suite
+    - field.field.node.actu.field_version_off_line
+    - node.type.actu
+  module:
+    - text
+    - user
+id: node.actu.teaser
+targetEntityType: node
+bundle: actu
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_affichage_actu: true
+  field_categorie_actu: true
+  field_chapeau: true
+  field_date_de_publication: true
+  field_image_chapeau: true
+  field_info_alerte: true
+  field_liste_liens: true
+  field_nid_parent: true
+  field_poids: true
+  field_suite: true
+  field_version_off_line: true
+  langcode: true

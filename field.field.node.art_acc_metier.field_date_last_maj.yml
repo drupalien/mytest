@@ -1,0 +1,21 @@
+uuid: 76f1144c-349b-498a-875f-c25790c04647
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_last_maj
+    - node.type.art_acc_metier
+  module:
+    - datetime
+id: node.art_acc_metier.field_date_last_maj
+field_name: field_date_last_maj
+entity_type: node
+bundle: art_acc_metier
+label: 'Date de dernière mise à jour'
+description: 'Saisissez la date à afficher après clic sur "[+] suite" en remplacement de la date par défaut de première publication.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,14 @@
+uuid: b9d51fcd-350b-4f43-bf7a-bc09d74116d2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrbordeaux
+  module:
+    - user
+id: user_add_role_action.doc_pnsrbordeaux
+label: 'Ajouter le rôle DOC_pnsrBordeaux aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: doc_pnsrbordeaux

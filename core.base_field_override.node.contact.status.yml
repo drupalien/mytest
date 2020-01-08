@@ -1,0 +1,22 @@
+uuid: 6ca095ce-792e-4e04-b3f2-31004fd05598
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact.status
+field_name: status
+entity_type: node
+bundle: contact
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

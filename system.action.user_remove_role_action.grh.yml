@@ -1,0 +1,14 @@
+uuid: d23bfca9-310f-4333-8e37-e94bbbf4bc15
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.grh
+  module:
+    - user
+id: user_remove_role_action.grh
+label: 'Enlever le rôle GRH des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: grh

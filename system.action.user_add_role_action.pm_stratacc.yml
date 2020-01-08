@@ -1,0 +1,14 @@
+uuid: 809524f6-7977-44f8-8458-3a745297531a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_stratacc
+  module:
+    - user
+id: user_add_role_action.pm_stratacc
+label: 'Ajouter le rôle PM_stratacc aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pm_stratacc

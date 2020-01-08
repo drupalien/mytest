@@ -1,0 +1,21 @@
+uuid: a8970107-8221-4b04-800b-62cecdcb59ee
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_poids
+    - node.type.actu
+  module:
+    - options
+id: node.actu.field_poids
+field_name: field_poids
+entity_type: node
+bundle: actu
+label: 'Ordre d''affichage'
+description: 'Donnez un poids à votre contenu pour déterminer son ordre d''affichage.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

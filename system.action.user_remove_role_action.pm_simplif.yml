@@ -1,0 +1,14 @@
+uuid: 114054ed-7265-4d46-97bb-ae34c18274ac
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_simplif
+  module:
+    - user
+id: user_remove_role_action.pm_simplif
+label: 'Enlever le rôle PM_simplif des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pm_simplif

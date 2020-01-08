@@ -1,0 +1,19 @@
+uuid: 14e4922c-2ad7-4f93-afef-7295a3a6cde6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nid_parent
+    - node.type.actu
+id: node.actu.field_nid_parent
+field_name: field_nid_parent
+entity_type: node
+bundle: actu
+label: 'Nid parent'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

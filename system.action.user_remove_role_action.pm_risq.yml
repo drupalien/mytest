@@ -1,0 +1,14 @@
+uuid: a58360f5-030e-45ab-afa6-c20ab7634e7e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_risq
+  module:
+    - user
+id: user_remove_role_action.pm_risq
+label: 'Enlever le rôle PM_risq des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pm_risq

@@ -1,0 +1,33 @@
+uuid: 4f9ab0eb-9538-4da3-a6d5-63d44e094f62
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.flash.body
+    - field.field.node.flash.field_date_de_publication
+    - node.type.flash
+  module:
+    - text
+    - user
+id: node.flash.teaser
+targetEntityType: node
+bundle: flash
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_date_de_publication: true
+  langcode: true

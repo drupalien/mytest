@@ -1,0 +1,14 @@
+uuid: 96230ef5-6d3e-4272-a0b4-404d23f275b6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.com_fusio
+  module:
+    - user
+id: user_remove_role_action.com_fusio
+label: 'Enlever le rôle COM_fusio des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: com_fusio

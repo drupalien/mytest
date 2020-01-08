@@ -1,0 +1,23 @@
+uuid: a64b69d0-223f-49b0-8293-5e4a3672de54
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_liste_liens
+    - node.type.info_metier
+  module:
+    - link
+id: node.info_metier.field_liste_liens
+field_name: field_liste_liens
+entity_type: node
+bundle: info_metier
+label: 'Liste de liens'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

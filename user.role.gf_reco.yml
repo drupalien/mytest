@@ -1,0 +1,9 @@
+uuid: ca6b9588-759e-44d1-9d48-b2502c39d4ac
+langcode: fr
+status: true
+dependencies: {  }
+id: gf_reco
+label: GF_reco
+weight: 57
+is_admin: null
+permissions: {  }

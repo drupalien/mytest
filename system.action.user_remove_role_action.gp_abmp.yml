@@ -1,0 +1,14 @@
+uuid: 89e63ac1-38ba-4200-b0c5-00b5ce415d10
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_abmp
+  module:
+    - user
+id: user_remove_role_action.gp_abmp
+label: 'Enlever le rôle GP_abmp des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gp_abmp

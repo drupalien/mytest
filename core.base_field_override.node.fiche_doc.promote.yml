@@ -1,0 +1,22 @@
+uuid: 29fef278-48d2-44c3-9ed4-d956bb5d45fe
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.fiche_doc
+id: node.fiche_doc.promote
+field_name: promote
+entity_type: node
+bundle: fiche_doc
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

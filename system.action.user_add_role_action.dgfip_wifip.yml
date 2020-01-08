@@ -1,0 +1,14 @@
+uuid: 145307f4-12f3-4c46-824b-713dbf0af4ae
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.dgfip_wifip
+  module:
+    - user
+id: user_add_role_action.dgfip_wifip
+label: 'Ajouter le rôle DGFIP_wiFiP aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: dgfip_wifip

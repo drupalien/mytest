@@ -1,0 +1,9 @@
+uuid: 2982082b-8dd7-4091-9851-316d366ff20d
+langcode: fr
+status: true
+dependencies: {  }
+id: com_rapp
+label: COM_rapp
+weight: 15
+is_admin: null
+permissions: {  }

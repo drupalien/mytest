@@ -1,0 +1,21 @@
+uuid: 1bcb6b9b-aa21-4958-a964-8fdaf99a21ca
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_de_publication
+    - node.type.contenu_metier
+id: node.contenu_metier.field_date_de_publication
+field_name: field_date_de_publication
+entity_type: node
+bundle: contenu_metier
+label: 'Publier le'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1576838088
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

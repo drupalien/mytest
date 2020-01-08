@@ -1,0 +1,9 @@
+uuid: 1f93c736-8e65-40af-9e27-a5def8bde193
+langcode: fr
+status: true
+dependencies: {  }
+id: pm_stratacc
+label: PM_stratacc
+weight: 90
+is_admin: null
+permissions: {  }

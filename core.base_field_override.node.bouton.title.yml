@@ -1,0 +1,18 @@
+uuid: 171e7252-118b-4918-bfac-e08753bacb06
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.bouton
+id: node.bouton.title
+field_name: title
+entity_type: node
+bundle: bouton
+label: 'Titre de référence'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

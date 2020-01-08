@@ -1,0 +1,14 @@
+uuid: bdafd36e-daed-4c90-98b7-ddfaef1caf24
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrchatellerault
+  module:
+    - user
+id: user_add_role_action.doc_pnsrchatellerault
+label: 'Ajouter le rôle DOC_pnsrChatellerault aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: doc_pnsrchatellerault

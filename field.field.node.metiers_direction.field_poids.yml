@@ -1,0 +1,23 @@
+uuid: d7d915db-5adf-4988-9419-b75241d75bdd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_poids
+    - node.type.metiers_direction
+  module:
+    - options
+id: node.metiers_direction.field_poids
+field_name: field_poids
+entity_type: node
+bundle: metiers_direction
+label: 'Ordre d''affichage'
+description: 'Donnez un poids à votre contenu pour déterminer son ordre d''affichage.'
+required: true
+translatable: true
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

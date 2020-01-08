@@ -1,0 +1,18 @@
+uuid: ba7835c9-52ad-4a30-a5d5-2595a9b30e96
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Fiche doc'
+type: fiche_doc
+description: 'Permet de signaler dans les pages d’accueil de niveau 2 les dernières notes publiées. (affichage sous le titre "Documentation")'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

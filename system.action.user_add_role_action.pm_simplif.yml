@@ -1,0 +1,14 @@
+uuid: 58b2641a-7e1d-435b-99dd-7fcf003a1847
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_simplif
+  module:
+    - user
+id: user_add_role_action.pm_simplif
+label: 'Ajouter le rôle PM_simplif aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pm_simplif

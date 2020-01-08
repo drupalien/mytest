@@ -1,0 +1,49 @@
+uuid: 5303efdd-6400-4a70-be06-859d8cb43e97
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.art_acc_metier.body
+    - field.field.node.art_acc_metier.field_chapeau
+    - field.field.node.art_acc_metier.field_date_de_publication
+    - field.field.node.art_acc_metier.field_date_last_maj
+    - field.field.node.art_acc_metier.field_image_chapeau
+    - field.field.node.art_acc_metier.field_liste_liens
+    - field.field.node.art_acc_metier.field_nid_parent
+    - field.field.node.art_acc_metier.field_poids
+    - field.field.node.art_acc_metier.field_suite
+    - field.field.node.art_acc_metier.field_version_off_line
+    - node.type.art_acc_metier
+  module:
+    - text
+    - user
+id: node.art_acc_metier.teaser
+targetEntityType: node
+bundle: art_acc_metier
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_chapeau: true
+  field_date_de_publication: true
+  field_date_last_maj: true
+  field_image_chapeau: true
+  field_liste_liens: true
+  field_nid_parent: true
+  field_poids: true
+  field_suite: true
+  field_version_off_line: true
+  langcode: true

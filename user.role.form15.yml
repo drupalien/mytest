@@ -1,0 +1,9 @@
+uuid: cba85661-6772-4f12-98c5-26d9fd1bd132
+langcode: fr
+status: true
+dependencies: {  }
+id: form15
+label: Form15
+weight: 47
+is_admin: null
+permissions: {  }

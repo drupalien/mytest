@@ -1,0 +1,9 @@
+uuid: 2fa0607f-05ff-429b-8fc8-589ce877368c
+langcode: fr
+status: true
+dependencies: {  }
+id: gp_immo
+label: GP_immo
+weight: 67
+is_admin: null
+permissions: {  }

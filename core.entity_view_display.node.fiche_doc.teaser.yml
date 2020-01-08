@@ -1,0 +1,25 @@
+uuid: a16e4c17-3800-4df0-bd5d-4ddfa66e5a60
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fiche_doc.field_date_de_publication
+    - field.field.node.fiche_doc.field_url
+    - node.type.fiche_doc
+  module:
+    - user
+id: node.fiche_doc.teaser
+targetEntityType: node
+bundle: fiche_doc
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_date_de_publication: true
+  field_url: true
+  langcode: true

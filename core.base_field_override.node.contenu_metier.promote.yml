@@ -1,0 +1,22 @@
+uuid: 7ca80cc9-88ff-454e-ba30-433ea874e08f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.contenu_metier
+id: node.contenu_metier.promote
+field_name: promote
+entity_type: node
+bundle: contenu_metier
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

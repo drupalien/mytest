@@ -1,0 +1,19 @@
+uuid: 62289545-1b7d-408e-b14a-edf59c6c3c2c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_texte_actu_appli
+    - node.type.actualite_applicative
+id: node.actualite_applicative.field_texte_actu_appli
+field_name: field_texte_actu_appli
+entity_type: node
+bundle: actualite_applicative
+label: Texte
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

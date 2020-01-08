@@ -1,0 +1,9 @@
+uuid: c4155723-5880-4271-84bc-19f32888390e
+langcode: fr
+status: true
+dependencies: {  }
+id: doc_pnsrchatellerault
+label: DOC_pnsrChatellerault
+weight: 23
+is_admin: null
+permissions: {  }

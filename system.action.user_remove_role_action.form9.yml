@@ -1,0 +1,14 @@
+uuid: 6be2e707-d786-4e8a-bdfb-8b89fffcff2e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form9
+  module:
+    - user
+id: user_remove_role_action.form9
+label: 'Enlever le rôle Form9 des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: form9

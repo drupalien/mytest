@@ -1,0 +1,11 @@
+uuid: e11d9059-59f5-49ba-859c-4d1b7229a3ec
+langcode: fr
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term_publish_action
+label: 'Publier le terme de taxonomie'
+type: taxonomy_term
+plugin: 'entity:publish_action:taxonomy_term'
+configuration: {  }

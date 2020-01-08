@@ -1,0 +1,14 @@
+uuid: 20ed9468-a213-442f-a61e-24f9e395eb7f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_mra
+  module:
+    - user
+id: user_add_role_action.pm_mra
+label: 'Ajouter le rôle PM_mra aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pm_mra

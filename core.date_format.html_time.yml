@@ -1,0 +1,8 @@
+uuid: c6d47d59-6260-45f1-a6b7-9c0192e320de
+langcode: fr
+status: true
+dependencies: {  }
+id: html_time
+label: 'Heure HTML'
+locked: true
+pattern: 'H:i:s'

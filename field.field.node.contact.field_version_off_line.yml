@@ -1,0 +1,23 @@
+uuid: e8431d20-e60d-4c3e-9419-fe1b3537d11a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_version_off_line
+    - node.type.contact
+id: node.contact.field_version_off_line
+field_name: field_version_off_line
+entity_type: node
+bundle: contact
+label: 'Version Hors Ligne'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Oui
+  off_label: Non
+field_type: boolean

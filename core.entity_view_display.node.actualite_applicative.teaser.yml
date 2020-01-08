@@ -1,0 +1,29 @@
+uuid: db8ef371-df23-4380-8d84-fb50d241443d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.actualite_applicative.field_applications_actualites
+    - field.field.node.actualite_applicative.field_date_de_publication
+    - field.field.node.actualite_applicative.field_liste_liens
+    - field.field.node.actualite_applicative.field_texte_actu_appli
+    - node.type.actualite_applicative
+  module:
+    - user
+id: node.actualite_applicative.teaser
+targetEntityType: node
+bundle: actualite_applicative
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_applications_actualites: true
+  field_date_de_publication: true
+  field_liste_liens: true
+  field_texte_actu_appli: true
+  langcode: true

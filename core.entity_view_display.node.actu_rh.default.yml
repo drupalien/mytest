@@ -1,0 +1,110 @@
+uuid: 321a98b2-2bc1-4df1-9d81-10265a451f30
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.actu_rh.body
+    - field.field.node.actu_rh.field_affichage_actu_rh
+    - field.field.node.actu_rh.field_categorie_rh
+    - field.field.node.actu_rh.field_chapeau
+    - field.field.node.actu_rh.field_date_de_publication
+    - field.field.node.actu_rh.field_image_chapeau
+    - field.field.node.actu_rh.field_info_alerte
+    - field.field.node.actu_rh.field_liste_liens
+    - field.field.node.actu_rh.field_suite
+    - node.type.actu_rh
+  module:
+    - image
+    - link
+    - options
+    - text
+    - user
+id: node.actu_rh.default
+targetEntityType: node
+bundle: actu_rh
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_affichage_actu_rh:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_categorie_rh:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_chapeau:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_date_de_publication:
+    weight: 109
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  field_image_chapeau:
+    weight: 106
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_info_alerte:
+    weight: 108
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_liste_liens:
+    weight: 107
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_suite:
+    weight: 105
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,9 +1,0 @@
-uuid: eb7615e6-bccc-46dc-852d-e6555cb91855
-langcode: fr
-status: true
-dependencies: {  }
-id: msit
-label: MSIT
-weight: 79
-is_admin: null
-permissions: {  }

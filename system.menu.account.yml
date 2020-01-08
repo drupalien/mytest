@@ -1,8 +1,0 @@
-uuid: 6f967a7e-15fe-4fe6-a3ab-10a50fba65f0
-langcode: fr
-status: true
-dependencies: {  }
-id: account
-label: 'Menu du compte de l''utilisateur'
-description: 'Liens associés au compte utilisateur courant'
-locked: true

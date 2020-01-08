@@ -1,8 +1,0 @@
-uuid: 13328525-daf3-4774-80da-eb0c94ffa356
-langcode: fr
-status: true
-dependencies: {  }
-id: html_month
-label: 'Mois HTML'
-locked: true
-pattern: Y-m

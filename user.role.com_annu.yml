@@ -1,9 +1,0 @@
-uuid: 46b30e0a-f7bb-4e69-b9f8-c0e9447d7033
-langcode: fr
-status: true
-dependencies: {  }
-id: com_annu
-label: COM_annu
-weight: 8
-is_admin: null
-permissions: {  }

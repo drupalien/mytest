@@ -1,8 +1,0 @@
-uuid: 092408c4-3322-4fa9-bc45-9fb42bc24ac3
-langcode: fr
-status: true
-dependencies: {  }
-id: html_datetime
-label: 'Date et heure HTML'
-locked: true
-pattern: 'Y-m-d\TH:i:sO'

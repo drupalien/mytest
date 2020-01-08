@@ -1,9 +1,0 @@
-uuid: 925d8067-4cff-4f91-be1f-4b89b2fb1e51
-langcode: fr
-status: true
-dependencies: {  }
-id: com_fusio
-label: COM_fusio
-weight: 12
-is_admin: null
-permissions: {  }

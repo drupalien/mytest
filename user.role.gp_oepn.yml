@@ -1,9 +1,0 @@
-uuid: 4c5daabf-a0de-4b4c-a6ef-7a3ba95b63be
-langcode: fr
-status: true
-dependencies: {  }
-id: gp_oepn
-label: GP_oepn
-weight: 68
-is_admin: null
-permissions: {  }

@@ -1,9 +1,0 @@
-uuid: de6c5000-bb11-4ebe-8728-51de3b4b77a4
-langcode: fr
-status: true
-dependencies: {  }
-id: form10
-label: Form10
-weight: 42
-is_admin: null
-permissions: {  }

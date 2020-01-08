@@ -1,9 +1,0 @@
-uuid: f43ae54c-1eb7-42f4-a8c6-f7f5e8a97b2f
-langcode: fr
-status: true
-dependencies: {  }
-id: com_mess
-label: COM_mess
-weight: 14
-is_admin: null
-permissions: {  }

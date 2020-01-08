@@ -1,9 +1,0 @@
-uuid: 32ee6c71-6226-42ad-9b70-663639d66c18
-langcode: fr
-status: true
-dependencies: {  }
-id: doc_pnsrstmaurice
-label: DOC_pnsrStMaurice
-weight: 30
-is_admin: null
-permissions: {  }

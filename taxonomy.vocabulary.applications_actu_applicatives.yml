@@ -1,8 +1,0 @@
-uuid: 704a3e00-c278-4771-8a6e-1ed71e750d40
-langcode: fr
-status: true
-dependencies: {  }
-name: 'Applications (actualités applicatives)'
-vid: applications_actu_applicatives
-description: 'Liste des applications disponibles pour les Actualités applicatives'
-weight: 0

@@ -1,9 +1,0 @@
-uuid: b9d62d69-624f-4542-bbb6-74851e1a27ee
-langcode: fr
-status: true
-dependencies: {  }
-id: form11
-label: Form11
-weight: 43
-is_admin: null
-permissions: {  }

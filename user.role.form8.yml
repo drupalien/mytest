@@ -1,9 +1,0 @@
-uuid: 2776727c-8a13-4fdf-b6b6-31dff7a4be02
-langcode: fr
-status: true
-dependencies: {  }
-id: form8
-label: Form8
-weight: 40
-is_admin: null
-permissions: {  }

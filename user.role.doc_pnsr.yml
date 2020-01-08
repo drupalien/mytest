@@ -1,9 +1,0 @@
-uuid: e24d7f20-38ad-40cd-93f0-ada950bd6568
-langcode: fr
-status: true
-dependencies: {  }
-id: doc_pnsr
-label: DOC_pnsr
-weight: 20
-is_admin: null
-permissions: {  }

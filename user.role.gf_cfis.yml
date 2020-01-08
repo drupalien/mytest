@@ -1,9 +1,0 @@
-uuid: 6d63ca32-1c19-4ff8-a085-9459ab7dbd00
-langcode: fr
-status: true
-dependencies: {  }
-id: gf_cfis
-label: GF_cfis
-weight: 51
-is_admin: null
-permissions: {  }

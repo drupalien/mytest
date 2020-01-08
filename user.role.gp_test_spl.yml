@@ -1,9 +1,0 @@
-uuid: 313490e5-a151-4008-a9f3-71519aa7da99
-langcode: fr
-status: true
-dependencies: {  }
-id: gp_test_spl
-label: GP_test_spl
-weight: 70
-is_admin: null
-permissions: {  }

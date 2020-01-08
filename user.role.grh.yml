@@ -1,9 +1,0 @@
-uuid: d7116f0d-5a48-40b7-a8d5-74dc0ffe22a0
-langcode: fr
-status: true
-dependencies: {  }
-id: grh
-label: GRH
-weight: 71
-is_admin: null
-permissions: {  }

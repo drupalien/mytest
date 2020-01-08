@@ -1,9 +1,0 @@
-uuid: d405a0aa-c963-47b8-a6be-bc60b8b0e13e
-langcode: fr
-status: true
-dependencies: {  }
-id: gp_doct
-label: GP_doct
-weight: 64
-is_admin: null
-permissions: {  }

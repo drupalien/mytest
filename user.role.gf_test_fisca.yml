@@ -1,9 +1,0 @@
-uuid: f77751da-4406-4df8-9571-cc3640db7532
-langcode: fr
-status: true
-dependencies: {  }
-id: gf_test_fisca
-label: GF_test_fisca
-weight: 59
-is_admin: null
-permissions: {  }

@@ -1,15 +1,8 @@
-uuid: cd79f708-5bea-4d4b-a058-fbcbd457864e
+uuid: faeeb99b-c730-43da-84bc-8eac17697c30
 langcode: fr
 status: true
-dependencies:
-  module:
-    - menu_ui
-third_party_settings:
-  menu_ui:
-    available_menus:
-      - main
-    parent: 'main:'
-name: Page
+dependencies: {  }
+name: 'Page de base'
 type: page
 description: 'Utilisez les <em>pages de base</em> pour votre contenu statique, tel que la page ''Qui sommes-nous''.'
 help: ''

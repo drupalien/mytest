@@ -2,7 +2,7 @@ country:
   default: FR
 first_day: 0
 timezone:
-  default: UTC
+  default: Europe/Paris
   user:
     configurable: true
     warn: false

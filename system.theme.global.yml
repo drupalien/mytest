@@ -1,15 +1,15 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: 'public://favicon_0.ico'
+  path: ''
   url: ''
-  use_default: false
+  use_default: true
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
 logo:
-  path: 'public://ulysse_0.gif'
+  path: ''
   url: ''
-  use_default: false
+  use_default: true
 langcode: fr

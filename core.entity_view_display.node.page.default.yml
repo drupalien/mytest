@@ -1,10 +1,9 @@
-uuid: e692d7e6-ec08-422d-a959-c0cac6552cf4
+uuid: 641336ec-8009-42f8-a947-7723a0c8f496
 langcode: fr
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_menu
     - node.type.page
   module:
     - text
@@ -21,14 +20,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_menu:
-    weight: 102
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   links:
     weight: 101
     region: content

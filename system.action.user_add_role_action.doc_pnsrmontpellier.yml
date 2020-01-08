@@ -1,0 +1,14 @@
+uuid: 548eda1d-7156-440c-8c95-ce471b4698f6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrmontpellier
+  module:
+    - user
+id: user_add_role_action.doc_pnsrmontpellier
+label: 'Ajouter le rôle DOC_pnsrMontpellier aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: doc_pnsrmontpellier

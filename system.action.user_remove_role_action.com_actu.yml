@@ -1,0 +1,14 @@
+uuid: 36c94d61-39d9-4e42-8a5b-316df23d06b5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.com_actu
+  module:
+    - user
+id: user_remove_role_action.com_actu
+label: 'Enlever le rôle COM_actu des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: com_actu

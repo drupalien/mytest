@@ -1,0 +1,14 @@
+uuid: 774d32cb-bce6-4396-ab12-b52fcb6e9daa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.msit
+  module:
+    - user
+id: user_remove_role_action.msit
+label: 'Enlever le rôle MSIT des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: msit

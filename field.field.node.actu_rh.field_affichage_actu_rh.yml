@@ -1,0 +1,23 @@
+uuid: 3715d6a4-7b03-4fff-9f77-4f44f9b75b5c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_affichage_actu_rh
+    - node.type.actu_rh
+  module:
+    - options
+id: node.actu_rh.field_affichage_actu_rh
+field_name: field_affichage_actu_rh
+entity_type: node
+bundle: actu_rh
+label: 'Affichage actu'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

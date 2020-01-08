@@ -1,0 +1,14 @@
+uuid: 1d2c5e1d-6c60-4b27-b3bf-eec6d07d48c5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form7
+  module:
+    - user
+id: user_add_role_action.form7
+label: 'Ajouter le rôle Form7 aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: form7

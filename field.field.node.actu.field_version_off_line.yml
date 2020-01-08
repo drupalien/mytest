@@ -1,0 +1,23 @@
+uuid: f350068c-1078-40bf-9374-05927355f1d3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_version_off_line
+    - node.type.actu
+id: node.actu.field_version_off_line
+field_name: field_version_off_line
+entity_type: node
+bundle: actu
+label: 'Version Hors Ligne'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Oui
+  off_label: Non
+field_type: boolean

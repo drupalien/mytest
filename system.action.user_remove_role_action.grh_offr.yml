@@ -1,0 +1,14 @@
+uuid: b9c8ae2b-ac8a-47e2-b1b6-5558cdb8f571
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.grh_offr
+  module:
+    - user
+id: user_remove_role_action.grh_offr
+label: 'Enlever le rôle GRH_offr des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: grh_offr

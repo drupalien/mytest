@@ -1,0 +1,14 @@
+uuid: fb9de6b7-6f9e-4641-9e2b-9cb3693cf99e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_mra
+  module:
+    - user
+id: user_remove_role_action.pm_mra
+label: 'Enlever le rôle PM_mra des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pm_mra

@@ -1,0 +1,9 @@
+uuid: 1da54931-7e7f-4810-a61d-149bfc75ab7e
+langcode: fr
+status: true
+dependencies: {  }
+id: gf_etud
+label: GF_etud
+weight: 53
+is_admin: null
+permissions: {  }

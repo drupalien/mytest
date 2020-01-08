@@ -1,0 +1,9 @@
+uuid: ce7e1629-90e0-44e5-ae5a-17f46564b172
+langcode: fr
+status: true
+dependencies: {  }
+id: pm
+label: PM
+weight: 80
+is_admin: null
+permissions: {  }

@@ -1,0 +1,9 @@
+uuid: b108dec7-b02b-434f-9cde-17cee8a84289
+langcode: fr
+status: true
+dependencies: {  }
+id: doc_pnsrlyon
+label: DOC_pnsrLyon
+weight: 24
+is_admin: null
+permissions: {  }

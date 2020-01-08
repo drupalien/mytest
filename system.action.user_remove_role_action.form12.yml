@@ -1,0 +1,14 @@
+uuid: c28207d6-1bc4-4eb9-b4da-eb760b0c7cf2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form12
+  module:
+    - user
+id: user_remove_role_action.form12
+label: 'Enlever le rôle Form12 des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: form12

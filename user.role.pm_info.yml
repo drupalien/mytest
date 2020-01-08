@@ -1,0 +1,9 @@
+uuid: 0a3608e9-0bc9-4afe-a83a-7d1c8efa6445
+langcode: fr
+status: true
+dependencies: {  }
+id: pm_info
+label: PM_info
+weight: 84
+is_admin: null
+permissions: {  }

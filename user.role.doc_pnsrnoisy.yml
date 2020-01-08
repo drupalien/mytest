@@ -1,0 +1,9 @@
+uuid: 6145d2aa-e250-4d47-9f73-29c8807e455a
+langcode: fr
+status: true
+dependencies: {  }
+id: doc_pnsrnoisy
+label: DOC_pnsrNoisy
+weight: 28
+is_admin: null
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: 063743a8-021c-4bc4-a449-46d9180495d6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_test_spl
+  module:
+    - user
+id: user_add_role_action.gp_test_spl
+label: 'Ajouter le rôle GP_test_spl aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gp_test_spl

@@ -1,0 +1,14 @@
+uuid: 7ba2c537-40e1-440b-b6cc-e361361eb9b0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form6
+  module:
+    - user
+id: user_add_role_action.form6
+label: 'Ajouter le rôle Form6 aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: form6

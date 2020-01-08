@@ -1,0 +1,9 @@
+uuid: e1295257-29e4-4c0d-b370-607af6f1e908
+langcode: fr
+status: true
+dependencies: {  }
+id: gf_amde
+label: GF_amde
+weight: 49
+is_admin: null
+permissions: {  }

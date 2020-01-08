@@ -1,0 +1,14 @@
+uuid: 7dfc0dfb-3c6c-48d5-ad5d-5f083cb9999e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form5
+  module:
+    - user
+id: user_add_role_action.form5
+label: 'Ajouter le rôle Form5 aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: form5

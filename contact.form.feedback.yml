@@ -1,0 +1,12 @@
+uuid: d917f02f-7465-4735-b1f6-69a2d671134e
+langcode: fr
+status: true
+dependencies: {  }
+id: feedback
+label: 'Retours utilisateurs sur le site web'
+recipients:
+  - ulysse-mazhar.consultant@dgfip.finances.gouv.fr
+reply: ''
+weight: 0
+message: 'Votre message a été envoyé.'
+redirect: ''

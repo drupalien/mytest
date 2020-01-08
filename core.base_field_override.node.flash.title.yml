@@ -1,0 +1,18 @@
+uuid: 277755e3-ee44-4410-8cf4-4cc7e3df9bda
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.flash
+id: node.flash.title
+field_name: title
+entity_type: node
+bundle: flash
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,14 @@
+uuid: cfa84488-26ef-4210-8500-71a9a620d7d4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form11
+  module:
+    - user
+id: user_remove_role_action.form11
+label: 'Enlever le rôle Form11 des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: form11

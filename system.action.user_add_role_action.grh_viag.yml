@@ -1,0 +1,14 @@
+uuid: 312f8190-9415-4ef4-942b-1b142832f050
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.grh_viag
+  module:
+    - user
+id: user_add_role_action.grh_viag
+label: 'Ajouter le rôle GRH_viag aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: grh_viag

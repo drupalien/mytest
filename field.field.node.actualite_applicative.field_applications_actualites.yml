@@ -1,0 +1,29 @@
+uuid: 52b25a8b-bafa-4bc7-8e14-d23dc40033a5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_applications_actualites
+    - node.type.actualite_applicative
+    - taxonomy.vocabulary.applications_actu_applicatives
+id: node.actualite_applicative.field_applications_actualites
+field_name: field_applications_actualites
+entity_type: node
+bundle: actualite_applicative
+label: 'Applications (actualités applicatives)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      applications_actu_applicatives: applications_actu_applicatives
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

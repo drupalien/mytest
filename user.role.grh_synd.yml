@@ -1,0 +1,9 @@
+uuid: 7b599137-f02f-40db-ba9d-a8d3a118df5f
+langcode: fr
+status: true
+dependencies: {  }
+id: grh_synd
+label: GRH_synd
+weight: 77
+is_admin: null
+permissions: {  }

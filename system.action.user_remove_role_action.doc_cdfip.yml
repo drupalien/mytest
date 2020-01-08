@@ -1,0 +1,14 @@
+uuid: 25022285-ce51-4f6c-bf50-9d81214a3682
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_cdfip
+  module:
+    - user
+id: user_remove_role_action.doc_cdfip
+label: 'Enlever le rôle DOC_cdfip des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: doc_cdfip

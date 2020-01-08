@@ -1,0 +1,21 @@
+uuid: b1ea1a31-961e-475e-966e-0fff99097588
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_colonne_gp
+    - node.type.metiers_direction
+  module:
+    - options
+id: node.metiers_direction.field_colonne_gp
+field_name: field_colonne_gp
+entity_type: node
+bundle: metiers_direction
+label: 'Numéro de colonne'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

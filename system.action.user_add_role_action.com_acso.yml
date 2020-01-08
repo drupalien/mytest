@@ -1,0 +1,14 @@
+uuid: 32c2cadb-0bd3-47ec-bc87-e66518533d62
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.com_acso
+  module:
+    - user
+id: user_add_role_action.com_acso
+label: 'Ajouter le rôle COM_acso aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: com_acso

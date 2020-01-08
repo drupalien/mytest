@@ -1,0 +1,47 @@
+uuid: 4451f949-a2ee-42df-95d5-c568ef86be5c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.info_metier.body
+    - field.field.node.info_metier.field_categorie_info
+    - field.field.node.info_metier.field_chapeau
+    - field.field.node.info_metier.field_date_de_publication
+    - field.field.node.info_metier.field_image_chapeau
+    - field.field.node.info_metier.field_info_alerte
+    - field.field.node.info_metier.field_liste_liens
+    - field.field.node.info_metier.field_suite
+    - field.field.node.info_metier.field_theme
+    - node.type.info_metier
+  module:
+    - text
+    - user
+id: node.info_metier.teaser
+targetEntityType: node
+bundle: info_metier
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_categorie_info: true
+  field_chapeau: true
+  field_date_de_publication: true
+  field_image_chapeau: true
+  field_info_alerte: true
+  field_liste_liens: true
+  field_suite: true
+  field_theme: true
+  langcode: true

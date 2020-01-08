@@ -1,0 +1,9 @@
+uuid: 3e19ace6-9603-477d-9022-19e443ac7c7c
+langcode: fr
+status: true
+dependencies: {  }
+id: appli_habilit
+label: APPLI_habilit
+weight: 4
+is_admin: null
+permissions: {  }

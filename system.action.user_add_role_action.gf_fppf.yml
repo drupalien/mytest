@@ -1,0 +1,14 @@
+uuid: b1f579ba-c7d2-4949-b6c6-99dba89ef7fb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gf_fppf
+  module:
+    - user
+id: user_add_role_action.gf_fppf
+label: 'Ajouter le rôle GF_fppf aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gf_fppf

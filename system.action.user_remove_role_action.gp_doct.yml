@@ -1,0 +1,14 @@
+uuid: 39572f2b-9649-4af5-9bee-a02242d8942c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_doct
+  module:
+    - user
+id: user_remove_role_action.gp_doct
+label: 'Enlever le rôle GP_doct des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gp_doct

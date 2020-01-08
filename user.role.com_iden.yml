@@ -1,0 +1,9 @@
+uuid: 869578fb-561a-4111-b102-fbbe315e11d4
+langcode: fr
+status: true
+dependencies: {  }
+id: com_iden
+label: COM_iden
+weight: 13
+is_admin: null
+permissions: {  }

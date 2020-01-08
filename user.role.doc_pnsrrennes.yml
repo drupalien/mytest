@@ -1,0 +1,9 @@
+uuid: c004848f-698e-453c-ad39-267245d2bece
+langcode: fr
+status: true
+dependencies: {  }
+id: doc_pnsrrennes
+label: DOC_pnsrRennes
+weight: 29
+is_admin: null
+permissions: {  }

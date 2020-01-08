@@ -1,0 +1,11 @@
+uuid: 6ad42c07-d19f-4936-9cdf-208e7ee1deae
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.fiche_doc
+id: node.fiche_doc
+target_entity_type_id: node
+target_bundle: fiche_doc
+default_langcode: site_default
+language_alterable: false

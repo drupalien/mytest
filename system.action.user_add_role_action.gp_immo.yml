@@ -1,0 +1,14 @@
+uuid: f69011ed-f579-48c9-8f5f-e06eadcfc3a1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_immo
+  module:
+    - user
+id: user_add_role_action.gp_immo
+label: 'Ajouter le rôle GP_immo aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gp_immo

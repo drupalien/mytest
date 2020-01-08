@@ -1,0 +1,14 @@
+uuid: cf6d28ad-ea0d-46e0-8085-9f8f97929d99
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gf_etud
+  module:
+    - user
+id: user_add_role_action.gf_etud
+label: 'Ajouter le rôle GF_etud aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gf_etud

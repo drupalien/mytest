@@ -1,0 +1,23 @@
+uuid: 3147bd13-f082-424d-a56d-214f8513fd52
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categorie_info
+    - node.type.info_metier
+  module:
+    - options
+id: node.info_metier.field_categorie_info
+field_name: field_categorie_info
+entity_type: node
+bundle: info_metier
+label: 'Type d''info métier'
+description: 'Veuillez sélectionner le type de l''info afin de déterminer sa zone d''affichage dans la page d''accueil de la rubrique.'
+required: true
+translatable: false
+default_value:
+  -
+    value: info
+default_value_callback: ''
+settings: {  }
+field_type: list_string

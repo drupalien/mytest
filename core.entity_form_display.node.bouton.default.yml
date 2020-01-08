@@ -1,0 +1,113 @@
+uuid: 8fa47959-35a8-4a3e-9ca5-38dc7846f952
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.bouton.field_choix_du_bloc
+    - field.field.node.bouton.field_date_de_publication
+    - field.field.node.bouton.field_imagebouton
+    - field.field.node.bouton.field_lienbouton
+    - field.field.node.bouton.field_menu
+    - field.field.node.bouton.field_nid_parent
+    - field.field.node.bouton.field_version_off_line
+    - image.style.thumbnail
+    - node.type.bouton
+  module:
+    - image
+    - link
+    - path
+id: node.bouton.default
+targetEntityType: node
+bundle: bouton
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_choix_du_bloc:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_date_de_publication:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_timestamp
+    region: content
+  field_imagebouton:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_lienbouton:
+    weight: 9
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  langcode:
+    type: language_select
+    weight: 0
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden:
+  field_menu: true
+  field_nid_parent: true
+  field_version_off_line: true

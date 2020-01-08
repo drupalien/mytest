@@ -1,0 +1,14 @@
+uuid: d93b9b10-43da-41ae-8fa6-a16570510a78
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.grh_form
+  module:
+    - user
+id: user_add_role_action.grh_form
+label: 'Ajouter le rôle GRH_form aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: grh_form

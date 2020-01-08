@@ -1,0 +1,9 @@
+uuid: 420e8ba4-c783-4a7e-bed8-26a25ce211af
+langcode: fr
+status: true
+dependencies: {  }
+id: pm_coop
+label: PM_coop
+weight: 83
+is_admin: null
+permissions: {  }

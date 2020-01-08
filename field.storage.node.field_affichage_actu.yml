@@ -1,0 +1,33 @@
+uuid: 903cfd2c-ed05-4186-b945-4f02820a44f9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_affichage_actu
+field_name: field_affichage_actu
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: 'Pas affiché en page d''accueil'
+    -
+      value: '1'
+      label: 'Accueil Brève'
+    -
+      value: '2'
+      label: 'Accueil Actualité'
+    -
+      value: '3'
+      label: 'Accueil Une'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

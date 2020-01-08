@@ -1,0 +1,14 @@
+uuid: 016402ba-f10c-48c2-b86a-03cb988fe68a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.form3
+  module:
+    - user
+id: user_remove_role_action.form3
+label: 'Enlever le rôle Form3 des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: form3

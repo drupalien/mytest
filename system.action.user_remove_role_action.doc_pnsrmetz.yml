@@ -1,0 +1,14 @@
+uuid: d7a1ccf3-ddcc-4591-8c0a-598131568c3d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.doc_pnsrmetz
+  module:
+    - user
+id: user_remove_role_action.doc_pnsrmetz
+label: 'Enlever le rôle DOC_pnsrMetz des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: doc_pnsrmetz

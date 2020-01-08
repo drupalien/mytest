@@ -1,0 +1,30 @@
+uuid: 0b171876-3bca-428c-b79d-dea70acd9f47
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.bouton
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__bouton_block_9
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:bouton-block_9'
+settings:
+  id: 'views_block:bouton-block_9'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

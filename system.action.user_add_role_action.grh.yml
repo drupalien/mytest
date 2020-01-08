@@ -1,0 +1,14 @@
+uuid: 6d5de619-1886-4689-a71d-b6366bfcd226
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.grh
+  module:
+    - user
+id: user_add_role_action.grh
+label: 'Ajouter le rôle GRH aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: grh

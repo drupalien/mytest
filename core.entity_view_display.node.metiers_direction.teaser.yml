@@ -1,0 +1,27 @@
+uuid: 0bfd94ae-e51e-43ec-9201-c5be04759bfd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.metiers_direction.field_colonne_gp
+    - field.field.node.metiers_direction.field_direction
+    - field.field.node.metiers_direction.field_poids
+    - node.type.metiers_direction
+  module:
+    - user
+id: node.metiers_direction.teaser
+targetEntityType: node
+bundle: metiers_direction
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_colonne_gp: true
+  field_direction: true
+  field_poids: true
+  langcode: true

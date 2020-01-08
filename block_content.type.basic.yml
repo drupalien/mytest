@@ -1,0 +1,8 @@
+uuid: e99a64d1-d27d-4250-a6c7-b14e96bad417
+langcode: fr
+status: true
+dependencies: {  }
+id: basic
+label: 'Bloc simple'
+revision: 0
+description: 'Un bloc simple contient un titre et un corps.'

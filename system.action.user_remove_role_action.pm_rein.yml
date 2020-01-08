@@ -1,0 +1,14 @@
+uuid: 38728941-7f00-4d30-bd83-9b3b0afa1c4a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.pm_rein
+  module:
+    - user
+id: user_remove_role_action.pm_rein
+label: 'Enlever le rôle PM_rein des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pm_rein

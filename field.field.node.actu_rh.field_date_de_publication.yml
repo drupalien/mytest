@@ -1,0 +1,19 @@
+uuid: d471f2f5-1362-4ecb-917f-905b83da8cd8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_de_publication
+    - node.type.actu_rh
+id: node.actu_rh.field_date_de_publication
+field_name: field_date_de_publication
+entity_type: node
+bundle: actu_rh
+label: 'Publier le'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

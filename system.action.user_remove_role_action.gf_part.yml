@@ -1,0 +1,14 @@
+uuid: 24177eb9-a924-439b-89c4-9dfe30910fb7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gf_part
+  module:
+    - user
+id: user_remove_role_action.gf_part
+label: 'Enlever le rôle GF_part des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gf_part

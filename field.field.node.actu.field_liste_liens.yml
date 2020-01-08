@@ -1,0 +1,23 @@
+uuid: 633e91a6-16fa-4f0f-bd6b-3c4ec9e3dd0a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_liste_liens
+    - node.type.actu
+  module:
+    - link
+id: node.actu.field_liste_liens
+field_name: field_liste_liens
+entity_type: node
+bundle: actu
+label: 'Liste de liens'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

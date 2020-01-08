@@ -1,0 +1,14 @@
+uuid: 54388e51-2d41-4e00-b57a-6f86fec39483
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_oepn
+  module:
+    - user
+id: user_add_role_action.gp_oepn
+label: 'Ajouter le rôle GP_oepn aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gp_oepn

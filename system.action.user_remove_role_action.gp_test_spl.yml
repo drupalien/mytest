@@ -1,0 +1,14 @@
+uuid: baab1986-0a6a-45d5-a5bc-5aceb6f9aeb0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gp_test_spl
+  module:
+    - user
+id: user_remove_role_action.gp_test_spl
+label: 'Enlever le rôle GP_test_spl des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gp_test_spl

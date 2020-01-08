@@ -1,0 +1,14 @@
+uuid: 5c5d55f0-14f5-48b8-aca3-213a5b987a15
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.gf_cfis
+  module:
+    - user
+id: user_remove_role_action.gf_cfis
+label: 'Enlever le rôle GF_cfis des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gf_cfis

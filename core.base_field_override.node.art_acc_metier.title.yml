@@ -1,0 +1,18 @@
+uuid: 5a645b33-3384-4d94-998e-c06e5a317ed5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.art_acc_metier
+id: node.art_acc_metier.title
+field_name: title
+entity_type: node
+bundle: art_acc_metier
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

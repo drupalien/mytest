@@ -1,0 +1,9 @@
+uuid: 4ebfbba5-0c19-4abd-ab2b-59c7db561ba7
+langcode: fr
+status: true
+dependencies: {  }
+id: gp_compta
+label: GP_compta
+weight: 63
+is_admin: null
+permissions: {  }

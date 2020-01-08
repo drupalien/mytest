@@ -1,9 +1,0 @@
-uuid: dd7d5982-8aa4-4bde-aed5-0f111161e1c5
-langcode: fr
-status: true
-dependencies: {  }
-id: doc_pnsrbordeaux
-label: DOC_pnsrBordeaux
-weight: 22
-is_admin: null
-permissions: {  }

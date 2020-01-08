@@ -1,9 +1,0 @@
-uuid: 20574345-7313-4284-8e56-1f621f7ec19a
-langcode: fr
-status: true
-dependencies: {  }
-id: gp_expe
-label: GP_expe
-weight: 66
-is_admin: null
-permissions: {  }

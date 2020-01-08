@@ -1,9 +1,0 @@
-uuid: 0f9acb57-00fa-45cf-8f1d-45d728f27abf
-langcode: fr
-status: true
-dependencies: {  }
-id: gf_cada
-label: GF_cada
-weight: 50
-is_admin: null
-permissions: {  }

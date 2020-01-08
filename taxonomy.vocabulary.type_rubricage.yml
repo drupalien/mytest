@@ -1,0 +1,8 @@
+uuid: f7169c98-961d-4436-973c-47d34f4323e8
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type de rubricage'
+vid: type_rubricage
+description: ''
+weight: 0

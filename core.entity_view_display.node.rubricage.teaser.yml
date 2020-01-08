@@ -1,0 +1,31 @@
+uuid: cb520d17-8af4-4baa-ad97-93918a1f9d32
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.rubricage.field_blocs_affiches
+    - field.field.node.rubricage.field_masquer_rubrique
+    - field.field.node.rubricage.field_ordre_affichage
+    - field.field.node.rubricage.field_rubrique_parent
+    - field.field.node.rubricage.field_type_rubricage
+    - node.type.rubricage
+  module:
+    - user
+id: node.rubricage.teaser
+targetEntityType: node
+bundle: rubricage
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_blocs_affiches: true
+  field_masquer_rubrique: true
+  field_ordre_affichage: true
+  field_rubrique_parent: true
+  field_type_rubricage: true
+  langcode: true

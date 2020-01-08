@@ -1,9 +1,0 @@
-uuid: 9236306f-fbd3-45dc-bf8b-2c0b1a48fb03
-langcode: fr
-status: true
-dependencies: {  }
-id: gp_abmp
-label: GP_abmp
-weight: 61
-is_admin: null
-permissions: {  }

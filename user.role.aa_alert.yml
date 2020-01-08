@@ -1,9 +1,0 @@
-uuid: e6ab0a9e-37c9-41c6-a71f-36e9487edad5
-langcode: fr
-status: true
-dependencies: {  }
-id: aa_alert
-label: AA_alert
-weight: 3
-is_admin: null
-permissions: {  }

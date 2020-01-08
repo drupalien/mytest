@@ -1,0 +1,47 @@
+uuid: 1b6e788e-3a7e-4755-95c4-edbe1c55acda
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.post_it.body
+    - field.field.node.post_it.field_colonne_droite
+    - field.field.node.post_it.field_colonne_gauche
+    - field.field.node.post_it.field_couleur
+    - field.field.node.post_it.field_liste_liens
+    - field.field.node.post_it.field_premiere_position
+    - field.field.node.post_it.field_reafficher_chapeau
+    - field.field.node.post_it.field_surtitre
+    - field.field.node.post_it.field_titre
+    - node.type.post_it
+  module:
+    - text
+    - user
+id: node.post_it.teaser
+targetEntityType: node
+bundle: post_it
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_colonne_droite: true
+  field_colonne_gauche: true
+  field_couleur: true
+  field_liste_liens: true
+  field_premiere_position: true
+  field_reafficher_chapeau: true
+  field_surtitre: true
+  field_titre: true
+  langcode: true

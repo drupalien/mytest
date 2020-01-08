@@ -1,9 +1,0 @@
-uuid: e710d249-0235-4537-bc3d-631bfb260cf9
-langcode: fr
-status: true
-dependencies: {  }
-id: com_demstrat
-label: COM_demstrat
-weight: 10
-is_admin: null
-permissions: {  }

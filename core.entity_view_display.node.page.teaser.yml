@@ -1,11 +1,10 @@
-uuid: 863a1ec2-ee9e-476d-ac5a-7c93f4a6157a
+uuid: 1e66a824-5a24-4a01-bfbc-4c2d8439862f
 langcode: fr
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
-    - field.field.node.page.field_menu
     - node.type.page
   module:
     - text
@@ -27,5 +26,4 @@ content:
     weight: 101
     region: content
 hidden:
-  field_menu: true
   langcode: true

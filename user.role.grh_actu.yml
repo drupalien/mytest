@@ -1,9 +1,0 @@
-uuid: 997d7a7a-33b6-46b0-8227-f3fc210db734
-langcode: fr
-status: true
-dependencies: {  }
-id: grh_actu
-label: GRH_actu
-weight: 72
-is_admin: null
-permissions: {  }

@@ -1,9 +1,0 @@
-uuid: 08cb21af-24c0-43f2-99f0-2038020dedc0
-langcode: fr
-status: true
-dependencies: {  }
-id: form14
-label: Form14
-weight: 46
-is_admin: null
-permissions: {  }

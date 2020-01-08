@@ -1,9 +1,0 @@
-uuid: 35d4f44c-d4b6-49d8-a738-b84d31cc8ae9
-langcode: fr
-status: true
-dependencies: {  }
-id: doc_cdfip
-label: DOC_cdfip
-weight: 19
-is_admin: null
-permissions: {  }

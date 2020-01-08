@@ -1,9 +1,0 @@
-uuid: dd84106c-fe63-4512-bc0b-ba577278a448
-langcode: fr
-status: true
-dependencies: {  }
-id: gf_fppf
-label: GF_fppf
-weight: 54
-is_admin: null
-permissions: {  }

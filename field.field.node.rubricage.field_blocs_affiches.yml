@@ -1,0 +1,39 @@
+uuid: d8163abe-279b-4a27-8b96-edcf764424df
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blocs_affiches
+    - node.type.rubricage
+    - taxonomy.vocabulary.blocs_colonne_droite
+  content:
+    - 'taxonomy_term:blocs_colonne_droite:838f7985-eb0f-4cfd-b850-6c722fb936ef'
+    - 'taxonomy_term:blocs_colonne_droite:c03ff3e7-61be-449b-80d2-0c99c65cd911'
+    - 'taxonomy_term:blocs_colonne_droite:f51be926-ccc2-450c-ae9c-6d10bce8e597'
+id: node.rubricage.field_blocs_affiches
+field_name: field_blocs_affiches
+entity_type: node
+bundle: rubricage
+label: 'Blocs affichés dans la colonne de droite'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: c03ff3e7-61be-449b-80d2-0c99c65cd911
+  -
+    target_uuid: f51be926-ccc2-450c-ae9c-6d10bce8e597
+  -
+    target_uuid: 838f7985-eb0f-4cfd-b850-6c722fb936ef
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      blocs_colonne_droite: blocs_colonne_droite
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

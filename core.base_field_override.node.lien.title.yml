@@ -1,0 +1,18 @@
+uuid: 2cea12db-2ccb-499f-ab8d-99d14393860b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.lien
+id: node.lien.title
+field_name: title
+entity_type: node
+bundle: lien
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

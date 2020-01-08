@@ -1,0 +1,10 @@
+uuid: 597bf6d6-7980-42dc-be03-941d870e80cf
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser
+label: Accroche
+targetEntityType: node
+cache: true

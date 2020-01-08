@@ -1,0 +1,21 @@
+uuid: a40e0d31-6546-4b10-ae9c-8398d3ab78d8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_colonne_gauche
+field_name: field_colonne_gauche
+entity_type: node
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ulysse_post_it_allowed_values_function
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

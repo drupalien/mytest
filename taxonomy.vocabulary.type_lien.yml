@@ -1,0 +1,8 @@
+uuid: 990dfe21-5eb7-4673-86a2-ed59b95f7a56
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type de lien'
+vid: type_lien
+description: ''
+weight: 0

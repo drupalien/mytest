@@ -1,0 +1,11 @@
+uuid: 09c65358-5a20-4890-8a20-1ba7b7056227
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node_make_sticky_action
+label: 'Épingler un contenu en haut des listes'
+type: node
+plugin: node_make_sticky_action
+configuration: {  }

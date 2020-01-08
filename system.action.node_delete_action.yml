@@ -1,0 +1,11 @@
+uuid: 3743bc50-bdb0-4dfa-ba42-2e021c4ed5fd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node_delete_action
+label: 'Supprimer le contenu'
+type: node
+plugin: 'entity:delete_action:node'
+configuration: {  }

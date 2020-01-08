@@ -1,0 +1,20 @@
+uuid: 8299b403-413f-45c9-8a55-b23ac7a4bd0f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_ordre_affichage
+field_name: field_ordre_affichage
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: 1752560c-bee0-4812-bb8d-12e026121100
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.rubricage
+id: node.rubricage
+target_entity_type_id: node
+target_bundle: rubricage
+default_langcode: site_default
+language_alterable: false

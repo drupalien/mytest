@@ -1,0 +1,29 @@
+uuid: 238cc20e-96d7-4c16-a335-2ebbca6bb6bb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.lien.field_lien_ordre_affichage
+    - field.field.node.lien.field_pages_destination
+    - field.field.node.lien.field_type_liste_parente
+    - field.field.node.lien.field_url
+    - node.type.lien
+  module:
+    - user
+id: node.lien.teaser
+targetEntityType: node
+bundle: lien
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_lien_ordre_affichage: true
+  field_pages_destination: true
+  field_type_liste_parente: true
+  field_url: true
+  langcode: true
